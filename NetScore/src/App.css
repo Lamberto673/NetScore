@@ -1,0 +1,237 @@
+body, html{
+  height: 100%;
+  width: 100%;
+  
+}
+
+body{
+  margin:0px;
+  transition: background 0.2s ease-in-out;
+}
+.AppSign{
+  display: flex;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+.AppPost{
+  margin: 0px auto;
+}
+.SignIn{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+.Wrapper{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  height:100%;
+}
+.Wrapper2{
+  border: 2px solid black;
+  width: 100%;
+  display: block;
+  background: linear-gradient(rgba(210, 105, 30, 0.614), rgb(209, 203, 29));
+  min-height: 65px;
+  border: 2px solid black;
+  transition: background 0.5s ease-in-out;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.Wrapper3{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 12px;
+  width: 100%;
+}
+.Post{
+  flex: 1;
+  height: 44px;
+  border-radius: 22px;
+  padding: 0 16px;
+  font-size: 1rem;
+  border: 1px solid #e0e0e0;
+  background: #f5f5f5;
+  outline: none;
+  box-sizing: border-box;
+  transition: background 0.2s ease-in-out;
+  transition: color 0.2s ease-in-out;
+  transition: border 0.2s ease-in-out;
+}
+.Post::placeholder{
+  color: #999;
+}
+.Post:focus{
+  border-color: #888;
+  background: #fff;
+}
+.PostButton{
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  background: linear-gradient(135deg, #6b7b8a, #4a5568);
+  color: #fff;
+  border: none;
+  border-radius: 22px;
+  padding: 12px 20px;
+  font-size: 0.95rem;
+  font-weight: 500;
+  cursor: pointer;
+  white-space: nowrap;
+}
+.PostButton:hover{
+  background: linear-gradient(135deg, #5a6a78, #3d4654);
+}
+.HeaderClass{
+  margin-bottom: 12px;
+  transition: color 0.2s ease-in-out;
+}
+.Header{
+  text-align: left;
+  font-weight: 600;
+  font-size: 1.1rem;
+  margin: 0;
+}
+.Upload{
+  margin: 20px;
+  border: none;
+  border-radius: 16px;
+  padding: 20px;
+  width: 100%;
+  max-width: 650px;
+  background: #fafafa;
+  box-shadow: 5px 6px 8px rgba(0,0,0,0.08), -2px -2px 4px rgba(0, 0, 0, 0.132);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.2s ease-in-out;
+}
+.ListPost{
+  border: 2px solid black;
+  margin: 10px;
+  padding: 20px;
+  width: 40vw;
+  border-radius: 20px;
+  text-align: left;
+  overflow-wrap:break-word;
+  position: relative;
+  transition: box-shadow 0.2s ease-in-out;
+  border: none;
+  box-shadow: 4px 4px 3px rgba(0, 0, 0, 0.099), -3.5px -3px 4px rgba(0, 0, 0, 0.163);
+  transition: background 0.2s ease-in-out;
+  
+}
+.ListPost:hover{
+  box-shadow: 4px 4px 3px rgba(0, 0, 0, 0.23), -3.5px -3px 4px rgba(0, 0, 0, 0.229)
+}
+.HeaderPost{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  max-width: 600px;
+
+}
+.Profile{
+  border: 2px solid black;
+  border-radius: 100px;
+  padding: 5px;
+  justify-content: center;
+  align-items: center;
+  margin-right: 15px;
+  width:30px;
+  text-align: center;
+  height: 30px;
+  background-color: rgb(99, 12, 192);
+  
+}
+.ProfilePic{
+  justify-content: center;
+  align-items: center;
+  margin:8px;
+  font-size: 0.8rem;
+  color: rgb(255, 255, 255)
+}
+.Username{
+  font-size: 1.3rem;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  /* margin-top:10px; */
+  margin: 0;
+  transition: color 0.2s ease-in-out;
+}
+.User{
+  display: flex;
+  flex-direction: column;
+  gap:2px;
+}
+.User p{
+  margin: 0;
+  transition: color 0.2s ease-in-out;
+}
+.Delete{
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  cursor: pointer;
+}
+.Delete p{
+  color: white;
+  background-color: rgb(203, 27, 27);
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 15px;
+  transition: background 0.2s ease-in-out, color 0.2s ease-in-out, transform 0.2s ease-in;
+}
+.Delete p:hover{
+  color: rgb(236, 23, 23);
+  background-color: rgb(205, 205, 205);
+  transform: translateY(-2px);
+}
+.Task{
+  text-align: left;
+  font-size: 1.2rem;
+  transition: color 0.2s ease-in-out;
+  
+}
+.UpvoteDownVote{
+  display: flex;
+  flex-direction: row;
+  height:20px;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+.UpvoteDownVote p{
+  cursor: pointer;
+}
+.Number{
+  margin-bottom: 10px;
+  justify-content: center;
+  align-items: center;
+  bottom: 5px;
+  position: relative;
+  transition: color 0.2s ease-in-out;
+}
+.DarkMode{
+display: flex;
+flex-direction: row;
+width: 100%;
+align-items: center;
+justify-content: center;
+right: 20px;
+}
+.Dark{
+  height:60px;
+  transition: background 0.2s ease-in-out;
+  transition: color 0.2s ease-in-out;
+}
+.DarkButton{
+  height: 60px;
+  width: 50px;
+  border-radius: 20px;
+  cursor:pointer
+}

@@ -1,0 +1,27 @@
+{
+  "name": "count_netscore",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node --import tsx src/server.js",
+    "dev": "nodemon --exec \"node --import tsx\" src/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@prisma/adapter-pg": "^7.2.0",
+    "@prisma/client": "^7.2.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "nodemon": "^3.1.11",
+    "pg": "^8.16.3"
+  },
+  "devDependencies": {
+    "prisma": "^7.2.0",
+    "tsx": "^4.21.0"
+  }
+}
