@@ -71,5 +71,3 @@ NetScore is a dynamic social feed application that lets users share thoughts, in
 5.  **Delete:** Click the red **Trash Can** icon to remove a post permanently.
 
 ---
-
-Made with ❤️ and Vibecoding.
